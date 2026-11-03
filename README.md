@@ -9,8 +9,8 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/Amariless/Inkling-releases/releases/download/v1.2.5/Inkling-1.2.5-Windows-Setup.exe"><img src="https://img.shields.io/badge/Windows-Installer_.exe-17161c?style=for-the-badge&labelColor=4f7cff&logo=data:image/svg%2bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggZmlsbD0id2hpdGUiIGQ9Ik0wIDMuNCA5LjggMnY5LjRIMHpNMTEgMS44IDI0IDB2MTEuM0gxMXpNMCAxMi42aDkuOFYyMkwwIDIwLjZ6TTExIDEyLjZoMTNWMjRsLTEzLTEuOHoiLz48L3N2Zz4=" alt="Download for Windows"></a>
-  <a href="https://github.com/Amariless/Inkling-releases/releases/download/v1.2.5/Inkling-1.2.5-Linux-x86_64.AppImage"><img src="https://img.shields.io/badge/Linux-AppImage-17161c?style=for-the-badge&labelColor=4f7cff&logo=linux&logoColor=white" alt="Download for Linux"></a>
+  <a href="https://github.com/Amariless/Inkling-releases/releases/download/v1.0.0/Inkling-1.0.0-Windows-Setup.exe"><img src="https://img.shields.io/badge/Windows-Installer_.exe-17161c?style=for-the-badge&labelColor=4f7cff&logo=data:image/svg%2bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggZmlsbD0id2hpdGUiIGQ9Ik0wIDMuNCA5LjggMnY5LjRIMHpNMTEgMS44IDI0IDB2MTEuM0gxMXpNMCAxMi42aDkuOFYyMkwwIDIwLjZ6TTExIDEyLjZoMTNWMjRsLTEzLTEuOHoiLz48L3N2Zz4=" alt="Download for Windows"></a>
+  <a href="https://github.com/Amariless/Inkling-releases/releases/download/v1.0.0/Inkling-1.0.0-Linux-x86_64.AppImage"><img src="https://img.shields.io/badge/Linux-AppImage-17161c?style=for-the-badge&labelColor=4f7cff&logo=linux&logoColor=white" alt="Download for Linux"></a>
 </p>
 
 <p align="center">
@@ -51,6 +51,7 @@ Inkling opens in an instant and stays light, even with dozens of tabs and huge f
 | `---` | A divider line |
 | `[text](link)` | Links. Web addresses also turn into links on their own. |
 | ```` ``` ```` | A code block |
+| `\| a \| b \|` + <kbd>Enter</kbd> | A table. <kbd>Tab</kbd> moves between cells and adds rows. |
 
 **Code blocks** highlight 28 languages, including Python, JavaScript, TypeScript, C, C++, C#, Java, Rust, Go, Kotlin, Swift, PHP, SQL, HTML, CSS, JSON, YAML and Bash. Pick the language in the corner of the block or by typing it after the backticks (```` ```python ````), and copy the whole block with one button.
 
@@ -88,7 +89,9 @@ Changed your mind? <kbd>Ctrl</kbd>+<kbd>Z</kbd> turns the formatting back into p
 - Duplicate, delete, move and sort lines, remove repeated lines and change case.
 - Insert the date and time with <kbd>F5</kbd>.
 - A command palette (<kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>P</kbd>) and an outline of your headings.
-- Spell checking with suggestions.
+- Tables: add or remove rows and columns and align each column from the right-click menu.
+- Line numbers for plain text files.
+- Spell checking with suggestions, with dictionaries for English, Spanish, Portuguese, French, German and Italian included.
 - Print or export to PDF.
 
 </details>
@@ -101,7 +104,8 @@ Changed your mind? <kbd>Ctrl</kbd>+<kbd>Z</kbd> turns the formatting back into p
 - Text in a centered column or across the full width, with your choice of font, size and line spacing.
 - Focus mode, full screen and always on top.
 - Zoom for each tab, and keyboard shortcuts you can change.
-- Interface in English and Spanish.
+- Interface in English, Spanish, Portuguese, French, German and Italian.
+- A quiet notice in the title bar when a new version is out (you can turn it off).
 
 </details>
 
@@ -109,9 +113,9 @@ Changed your mind? <kbd>Ctrl</kbd>+<kbd>Z</kbd> turns the formatting back into p
 
 | System | Download | Notes |
 |---|---|---|
-| **Windows** | [Installer (.exe)](https://github.com/Amariless/Inkling-releases/releases/download/v1.2.5/Inkling-1.2.5-Windows-Setup.exe) | Windows 10 or 11. If SmartScreen shows up, choose *More info → Run anyway*. The installer isn't signed with a paid certificate. |
-| **Windows, portable** | [Zip](https://github.com/Amariless/Inkling-releases/releases/download/v1.2.5/Inkling-1.2.5-Windows-portable.zip) | Nothing to install. Put an empty file named `portable` next to `inkling.exe` and your notes are saved in that same folder. |
-| **Linux** | [AppImage](https://github.com/Amariless/Inkling-releases/releases/download/v1.2.5/Inkling-1.2.5-Linux-x86_64.AppImage) | 64-bit PCs. Make it executable (`chmod +x`) and open it. |
+| **Windows** | [Installer (.exe)](https://github.com/Amariless/Inkling-releases/releases/download/v1.0.0/Inkling-1.0.0-Windows-Setup.exe) | Windows 10 or 11. If SmartScreen shows up, choose *More info → Run anyway*. The installer isn't signed with a paid certificate. |
+| **Windows, portable** | [Zip](https://github.com/Amariless/Inkling-releases/releases/download/v1.0.0/Inkling-1.0.0-Windows-portable.zip) | Nothing to install. Put an empty file named `portable` next to `inkling.exe` and your notes are saved in that same folder. |
+| **Linux** | [AppImage](https://github.com/Amariless/Inkling-releases/releases/download/v1.0.0/Inkling-1.0.0-Linux-x86_64.AppImage) | 64-bit PCs. Make it executable (`chmod +x`) and open it. |
 
 There's no macOS version yet. Older versions and release notes are on the [Releases](https://github.com/Amariless/Inkling-releases/releases) page.
 
